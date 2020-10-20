@@ -1,9 +1,15 @@
 
-body {background: url(../img/backgrounds/1.jpg) fixed; background-position: top left; margin: 25px 0}
+body {background: url(../img/backgrounds/1.jpg) fixed; 
+      background-position: top left; 
+      margin: 25px 0;
+    }
 
 .blur {border-radius: 10px}
 
-p {color: #38525a}
+p {color: #38525a;
+    /* font-size: 23px;
+    font-family: 'Ranchers'; */
+}
 h1,h2,h3,h4 {font-family:'Ranchers',sans-serif; font-weight: normal; color: #38525a}
 
 .panel {background: #fafafa}
