@@ -1,6 +1,7 @@
 
-body {background: url(../img/backgrounds/1.jpg) fixed; 
+body {background-image: url(../img/backgrounds/Simple_small.png); 
       background-position: top left; 
+      background-repeat: repeat;
       margin: 25px 0;
     }
 
@@ -10,7 +11,7 @@ p {color: #38525a;
     /* font-size: 23px;
     font-family: 'Ranchers'; */
 }
-h1,h2,h3,h4 {font-family:'Ranchers',sans-serif; font-weight: normal; color: #38525a}
+h1,h2,h3,h4 {font-family:'Advent Pro',sans-serif; font-weight: normal; color: #38525a}
 
 .panel {background: #fafafa}
 
@@ -18,7 +19,7 @@ h1,h2,h3,h4 {font-family:'Ranchers',sans-serif; font-weight: normal; color: #385
 
 .panel.callout p {color: #FFF}
 
-h1.heading_supersize {font-size: 60px; text-align:center; font-weight: normal; line-height: normal}
+h1.heading_supersize {font-size: 52px; text-align:center; font-weight: normal; line-height: normal}
 h2.heading_largesize {font-size: 44px; text-align:center; font-weight: normal}
 
 
@@ -28,7 +29,7 @@ hr {
 
 
 .nav-bar {margin-top: 0; background: none}
-.nav-bar > li {border: 0; padding: 0; font-family: 'Ranchers',sans-serif; letter-spacing: 2px}
+.nav-bar > li {border: 0; padding: 0; font-family: 'Advent Pro',sans-serif; letter-spacing: 2px}
 .nav-bar > li > a:first-child {font-size: 16px; text-transform: uppercase; padding: 25px}
 .nav-bar > li:last-child {border: 0}
 .nav-bar > li.active:hover { background: #fbd9e8; cursor: default; }{}

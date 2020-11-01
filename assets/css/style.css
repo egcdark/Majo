@@ -2,7 +2,7 @@
 html {overflow-x:hidden;}
 body {
     background: url(../img/backgrounds/1.jpg) fixed; background-position: top left; margin: 25px 0;
-    font-family: 'Ranchers', sans-serif;
+    font-family: 'Advent Pro', sans-serif;
     font-weight: 300;
     color: #38525a;
     text-align: center;
@@ -32,7 +32,9 @@ video {
     overflow: hidden;
     width: 100%;
 }
-strong { font-weight: 700; color: #42bfc2;}
+strong { font-weight: 1000; 
+        /* color: #42bfc2; */
+        color: #fe98c5}
 
 a, a:hover, a:focus {
 	color: #000000;
@@ -98,16 +100,18 @@ img { max-width: 100%; }
 .timer .hours-wrapper,
 .timer .minutes-wrapper,
 .timer .seconds-wrapper {
-    font-family: 'Ranchers';
+    font-family: 'Advent Pro';
     color:#38525a;
     display: inline-block;
     width: 160px;
     margin: 0 10px;
     font-size: 18px;
     padding: 25px 10px;
-    background-color: #42bfc226;
+    /* background-color: #42bfc226; */
+    background-color: #fe98c51f;
     border-radius: 20%;
-    border: 1px solid #42bfc2;
+    /* border: 1px solid #42bfc2; */
+    border: 1px solid #fe98c5;
 }
 
 .timer .days,
